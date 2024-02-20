@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.big-screen,
+.laptops,
+.tablets,
+.mobile{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* media queri now apply */
+/* 
+
+@media(max-width:400px){
+    body{
+        background-color: crimson ;
+    }
+    .mobile{
+        display: block;
+    }
+
+}
+
+@media(min-width:400px) and (max-width:650px){
+    body{
+        background-color: aqua;
+    }
+    .tablets{
+        display: block;
+    }
+}
+
+@media(min-width:650pxpx) and(max-width:880px){
+    body{
+        background-color: darkgoldenrod;
+    }
+    .laptops{
+        display: block;
+    }
+}
+
+@media(min-width:880px) and(max-width:1120px){
+    body{
+        background-color: forestgreen;
+    }
+    .big-screen{
+        display: block;
+    }
+}
+@media(max-width:1120px){
+    body{
+        background-color: aqua;
+    }
+} */
+
+@media screen and (max-width:600px){
+    body{
+        background-color: brown;
+    }    
+ .mobile{
+    display: block;
+ }
+ .tablets{
+    display: none;
+ }
+ .laptops{
+    display: none;
+ }
+ .big-screen{
+    display: none;
+ }
+}
+
+@media screen and(min-width:600px) and(max-width:768px){
+    body{
+        background-color: aquamarine;
+    }
+    .tablets{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .laptops{
+        display: none;
+    }
+    .big-screen{
+        display: none;
+    }
+}
+
+@media screen and(min-width:786px) and (max-width:982px){
+    body{
+        background-color: yellow;
+    }
+    .laptops{
+        display: block;
+    }
+    .big-screen{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablets{
+        display: none;
+    }
+}
+
+@media screen and (min-width:982px) and (max-width:1200px){
+    body{
+        background-color: forestgreen;
+    }
+    .big-screen{
+        display: block;
+    }
+    .laptops{
+        display: none;
+    }
+    .tablets{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+@media screen and(min-width:1200px) and (max-width:3500px){
+    body{
+        background-color: aquamarine;
+    }
+    .big-screen{
+        display: none;
+    }
+    .laptops{
+        display: none;
+    }
+    .tablets{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}

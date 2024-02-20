@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+nav{
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+img[alt="menu"]{
+    width: 20px;
+    display: none;
+}
+
+.home-option{
+    padding: 5px 10px;
+    background-color: rgb(100,100,224);
+    border-radius: 15px;
+}
+
+.intro{
+    width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+img[alt="hello"]{
+    height: 45px;
+}
+
+.intro-line1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size:30px;
+    text-transform: capitalize;
+}
+.intro-line2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.intro-line2 h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.intro-line2 h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgb(197, 197, 89);
+}
+
+img[alt="pc image"]{
+    width: 30vw;
+}
+
+/* main */
+
+.project{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.horizontal-divider{
+    height: 10px;
+    width: 135px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+img[alt="project"]{
+    width: 20vw;
+}
+/* .projec p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.pra{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* footer */
+
+.contact{
+    margin: 50px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact div h1{
+    font-size: 40px;
+}
+
+.horizontal-divider-contact{
+    height: 10px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img[alt="social"]{
+    width: 30px;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+/* now apply media queris */
+
+@media screen and(max-width:576px){
+    nav ul{
+        display: none;
+    }
+
+    img[alt="menu"]{
+        display: block;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-line1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .intro-line1 h1{
+        font-size: 40px;
+    }
+
+    .intro-line2 h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .project-list{
+        display: grid;
+        grid-template-rows: 1fr;
+
+        /* display: flex;
+        flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    img[alt="pc image"]{
+        width: 55vw;
+    }
+    .project div h1{
+        font-size: 35px;
+    }
+    .contact div h1{
+        font-size: 35px;
+    }
+    .horizontal-divider-contact{
+        height: 10px;
+        width: 180px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}

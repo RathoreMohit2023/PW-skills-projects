@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav bar */
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+}
+ 
+.grow-list{
+    flex-grow: 1;
+}
+ 
+img{
+    width: 92px;
+    height: 32px;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    color: #fff;
+    margin-left: 63px;
+}
+
+.list{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 24px;
+    margin-left: 64px;   
+}
+
+.logo,
+.list-item{
+    cursor: pointer;
+}
+
+.small-btn{
+    padding: 7px 28px;
+    border: none;
+    background-color: #ba0cc5;
+    border-radius: 6px;
+     font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* main section */
+
+.main-section{
+    background-image: url(/projects_with_html&css/project5/assets/bg.png);
+    background-size: cover;
+    background-attachment:scroll;
+    height: 91.5vh;
+    text-align: center;
+}
+
+.heading-text{
+    max-width: 846px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    font-weight: 700;
+    /* text-transform: capitalize; */
+    line-height: 98px;
+    padding-top: 172px;
+    color: #fff;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 45px;
+    color: #fff;
+}
+
+.big-btn{
+    padding: 14px 22px;
+    border: none;
+    background-color: #ba0cc5;
+    border: radius 11.2308px;x;
+     font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 29.8487px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 45px;
+    color: #fff;
+    cursor: pointer;   
+}

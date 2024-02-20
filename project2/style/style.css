@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* body{
+    background-color: #3b8558;
+    } */
+
+nav{
+    padding: 20px 10px;
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 100px;
+}
+
+/* main */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-main{
+    width: 40%;
+}
+
+.right-main h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.right-main p{
+    text-transform: capitalize;
+    margin: 5% 0;
+}
+
+.right-main button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    background-color: #3b8558;
+    border-radius: 10px;
+}
+
+.right-main button:hover{
+    color: #3b8558;
+    font-weight: 800;
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* left section */
+.left-main{
+    /* display: flex; */
+    width: 60%;
+    padding: 7%;
+}
+
+.left-main div img{
+    width: 30%;
+}
+.left-main div img:first-child{
+    margin-right: 20px;
+}
+
+.left-main div{
+    margin-bottom: 20px;
+}
+.left-main > img {
+    width: 64%;
+}
